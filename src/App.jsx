@@ -1,14 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Header } from "semantic-ui-react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <Header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to to my test-semantic-react app
         </p>
         <a
           className="App-link"
@@ -18,7 +19,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </Header>
     </div>
   );
 }
